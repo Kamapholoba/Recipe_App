@@ -1,0 +1,15 @@
+C:\Users\azdil\source\Recipe_App\bin\Debug\net8.0\Recipe_App.exe
+C:\Users\azdil\source\Recipe_App\bin\Debug\net8.0\Recipe_App.deps.json
+C:\Users\azdil\source\Recipe_App\bin\Debug\net8.0\Recipe_App.runtimeconfig.json
+C:\Users\azdil\source\Recipe_App\bin\Debug\net8.0\Recipe_App.dll
+C:\Users\azdil\source\Recipe_App\bin\Debug\net8.0\Recipe_App.pdb
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.AssemblyInfoInputs.cache
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.AssemblyInfo.cs
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.csproj.CoreCompileInputs.cache
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.sourcelink.json
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.dll
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\refint\Recipe_App.dll
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.pdb
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\Recipe_App.genruntimeconfig.cache
+C:\Users\azdil\source\Recipe_App\obj\Debug\net8.0\ref\Recipe_App.dll
