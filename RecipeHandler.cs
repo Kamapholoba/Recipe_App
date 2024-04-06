@@ -2,13 +2,17 @@ using System;
 
 namespace Recipe_App
 {
-    class RecipeManager
+    class RecipeHandler
     {
         private Recipe recipe;
 
         public void EnterRecipeDetails()
         {
             recipe = new Recipe();
+
+            Console.Write("Enter the name of the recipe: ");
+            string recipeName = Console.ReadLine();
+            recipe.SetName(recipeName);
 
             Console.Write("Enter the number of ingredients: ");
             int numIngredients = int.Parse(Console.ReadLine());
@@ -20,7 +24,7 @@ namespace Recipe_App
 
                 Console.Write($"Enter the quantity of {name}: ");
                 double quantity = double.Parse(Console.ReadLine());
-
+ 
                 Console.Write($"Enter the unit of measurement for {name}: ");
                 string unit = Console.ReadLine();
 

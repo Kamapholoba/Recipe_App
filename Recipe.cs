@@ -4,13 +4,25 @@ namespace Recipe_App
 {
     class Recipe
     {
+        private string name;
         private Ingredient[] ingredients;
         private string[] steps;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
 
         public Recipe()
         {
             ingredients = new Ingredient[0];
             steps = new string[0];
+        }
+
+        public void SetName(string recipeName)
+        {
+            Name = recipeName;
         }
 
         public void AddIngredient(string name, double quantity, string unit)
@@ -27,11 +39,13 @@ namespace Recipe_App
 
         public void DisplayRecipe()
         {
-            Console.WriteLine("Recipe:");
+            Console.WriteLine($"Recipe: {Name}");
 
             foreach (var ingredient in ingredients)
             {
-                Console.WriteLine($"{ingredient.Name}: {ingredient.Quantity} {ingredient.Unit}");
+                Console.WriteLine($"Ingredient Name: {ingredient.Name}");
+                Console.WriteLine($"Quantity: {ingredient.Quantity}");
+                Console.WriteLine($"Unit: {ingredient.Unit}");
             }
 
             Console.WriteLine("Steps:");
@@ -51,7 +65,10 @@ namespace Recipe_App
 
         public void ResetQuantities()
         {
-           
+            foreach (var ingredient in ingredients)
+            {
+                ingredient.Quantity = 0;
+            }
         }
     }
 }

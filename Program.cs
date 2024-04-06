@@ -6,7 +6,7 @@ namespace Recipe_App
     {
         static void Main(string[] args)
         {
-            RecipeManager recipeManager = new RecipeManager();
+            RecipeHandler recipeManager = new RecipeHandler();
             bool continueProgram = true;
 
             Console.WriteLine("Welcome to the Recipe Application!");
